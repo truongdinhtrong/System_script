@@ -8,7 +8,7 @@ yum install gcc bzip2-devel libffi-devel openssl-devel
 
 make altinstall 
 
-# install pandas:
+# install libraries:
 
 pip3.6 install MySQL-connector-python numpy mysql-connector psutil xlsxwriter 
 
