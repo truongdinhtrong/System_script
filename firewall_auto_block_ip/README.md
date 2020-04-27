@@ -1,6 +1,8 @@
 # Config log iptables:
 vi /etc/rsyslog.d/iptables.conf
+
 kern.warning    /logs/iptables/iptables.log
+
 :msg,contains,"[netfilter] " /logs/iptables/iptables.log
 
 systemctl restart rsyslog
