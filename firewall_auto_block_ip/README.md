@@ -5,6 +5,7 @@ kern.warning    /logs/iptables/iptables.log
 
 :msg,contains,"[netfilter] " /logs/iptables/iptables.log
 
+
 systemctl restart rsyslog
 
 # Add rule iptables connlimit:
