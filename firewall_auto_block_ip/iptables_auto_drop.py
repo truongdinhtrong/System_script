@@ -7,7 +7,6 @@ import time
 import datetime
 import subprocess
 import json, urllib.request
-import sqlite3
 from urllib.error import HTTPError
 
 # -------------------------------
